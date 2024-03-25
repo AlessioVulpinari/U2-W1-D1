@@ -237,6 +237,16 @@ footer a {
   table {
     width: 75%;
   }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header div {
+    display: flex;
+    align-items: center;
+  }
+
   iframe {
     display: inline-block;
     width: 50%;
@@ -249,7 +259,11 @@ footer a {
     width: 50%;
     margin-right: -4px;
   }
+  aside {
+    text-align: center;
+  }
   aside div {
+    text-align: left;
     display: inline-block;
     width: 33%;
     margin: -4px;
