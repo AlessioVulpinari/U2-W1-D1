@@ -273,3 +273,13 @@ footer a {
     margin: -4px;
   }
 }
+
+@media print {
+  main iframe,
+  main section,
+  main aside,
+  footer,
+  header {
+    display: none;
+  }
+}
